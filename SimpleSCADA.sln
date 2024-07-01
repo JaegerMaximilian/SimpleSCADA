@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSCADA_Controller", "SimpleSCADA_Controller\SimpleSCADA_Controller.csproj", "{30C28B64-44F8-42A6-8D17-E2E7137D6D64}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F4C7CE9-A20A-4100-930A-B5956613AEB0} = {3F4C7CE9-A20A-4100-930A-B5956613AEB0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSCADA_DesktopViewer", "SimpleSCADA_DesktopViewer\SimpleSCADA_DesktopViewer.csproj", "{3F4C7CE9-A20A-4100-930A-B5956613AEB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSCADA_SharedResources", "SimpleSCADA_SharedResources\SimpleSCADA_SharedResources.csproj", "{9CFB5DBB-2AE8-410A-842E-8999155DC394}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleScada.WebAPI", "SimpleScada.WebAPI\SimpleScada.WebAPI.csproj", "{677BE7C7-7B2A-4CE8-980F-C2ED9F38236E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C28B64-44F8-42A6-8D17-E2E7137D6D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C28B64-44F8-42A6-8D17-E2E7137D6D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C28B64-44F8-42A6-8D17-E2E7137D6D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C28B64-44F8-42A6-8D17-E2E7137D6D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4C7CE9-A20A-4100-930A-B5956613AEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4C7CE9-A20A-4100-930A-B5956613AEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4C7CE9-A20A-4100-930A-B5956613AEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4C7CE9-A20A-4100-930A-B5956613AEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFB5DBB-2AE8-410A-842E-8999155DC394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFB5DBB-2AE8-410A-842E-8999155DC394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFB5DBB-2AE8-410A-842E-8999155DC394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFB5DBB-2AE8-410A-842E-8999155DC394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677BE7C7-7B2A-4CE8-980F-C2ED9F38236E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677BE7C7-7B2A-4CE8-980F-C2ED9F38236E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677BE7C7-7B2A-4CE8-980F-C2ED9F38236E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677BE7C7-7B2A-4CE8-980F-C2ED9F38236E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BF38CA8-767E-45B1-99CA-95014629CC30}
+	EndGlobalSection
+EndGlobal
